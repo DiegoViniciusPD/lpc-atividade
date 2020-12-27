@@ -1,0 +1,28 @@
+Algoritmo "IrParaEscola"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Clóvis
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Gabriel V., Diego Vinicius e Pedro F.
+// Data atual  : 18/02/2020
+Var
+// Seção de Declarações das variáveis 
+acordar: logico
+Inicio
+
+acordar <- falso
+escreval ("*acordar*")
+escreval ("*levantar*")
+
+enquanto acordar = falso faca
+        escreval ("estou atrasado? (responda com VERDADEIRO ou FALSO)")
+        leia (acordar)
+        se (acordar) = verdadeiro entao
+        escreval ("*levantar*")
+        escreval ("*se arrumar*")
+      senao
+        escreval ("vou voltar a dormir")
+        escreval ("*voltar a dormir*")
+      fimse
+fimenquanto
+
+Fimalgoritmo
