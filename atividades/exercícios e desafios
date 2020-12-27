@@ -1,0 +1,74 @@
+# Diego Vinicius
+# 1° A
+# Prof. Clóvis Rocha
+#LPC
+
+# 1°)
+# s = 'Olá mundo'
+# print(s)
+
+# 2°)
+# print('Digite um número:')
+# número = int (input(''))
+# print('O número informado foi:' número)
+
+# 3°)
+# print('Digite dois números para serem somados')
+# numero1 = int (input('- Primeiro número:\n'))
+# numero2 = int (input('- Segundo número:\n'))
+# soma = (numero1 + numero2)
+# print('A soma dos dois é igual a:', soma)
+
+# 4°)
+# print('Digite as notas do aluno pada tirar a média')
+# nota1 = float (input('Nota 1:\n'))
+# nota2 = float (input('Nota 2:\n'))
+# nota3 = float (input('Nota 3:\n'))
+# nota4 = float (input('Nota 4:\n'))
+# media = ((nota1 + nota2 + nota3 + nota4)/4)
+# print('A média é:', media)
+
+# 5°)
+# metros = float (input(''))
+# centimetros = (metros * 100)
+# print('São', centimetros, 'centímetros')
+
+# 6°)
+# r = input('Digite o raio do círculo em metros:  ')
+# pi = 3.14
+# area = (pi * r^2)
+# print('A área do círculo é', area, 'metros ao quadrado')
+
+# 7°)
+# lado = float (input("Diga a medida do lado do quadrado\n"))
+# area = lado * lado
+# dobro = area * 2
+# print('A área é:', area, 'e o dobro é', dobro, 'centímetros')
+
+# 8°)
+# dinheiro = int(input('Diga quanto recebe:\n'))
+# horas = int(input('Diga quantas horas trabalha por mês:\n'))
+# print('Você ganha:', horas*dinheiro)
+
+# 9°)
+# numero = input('Diz um número:\n')
+# if numero>=0:
+#	print ('Esse número é positivo')
+# else:
+#    print ('Esse número é negativo')
+
+# 10°)
+# sexo = str(input('Fale se o sexo é F ou M\n').upper())
+# if sexo == 'M':
+#	print('Sexo masculino')
+# elif sexo == 'F':
+#	print('Sexo feminino')
+# else:
+#	print('Sexo invalido')
+
+# 11°)
+# letra = str(input('Fala qualquer letra:n\').lower())
+# if letra == 'a,e,i,o,u'
+#    print(letra, 'é uma vogal')
+# else:
+#	print(letra, 'é uma consoante')
