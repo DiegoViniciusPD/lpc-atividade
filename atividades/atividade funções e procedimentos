@@ -1,0 +1,26 @@
+algoritmo "media"
+  var letra: caractere
+  var nota1, nota2, nota3, resultado : real
+ inicio
+procedimento MediaDoAluno (letra: caractere; nota1, nota2, nota3 : real)
+var
+inicio
+se letra "a" entao
+escreval (" A média aritmética das notas é: " , (nota1+nota2+nota3)/3) )
+senao
+se letra "p" entao
+resultado <- ( (nota1*5)+(nota2*3)+(nota3*2) ) / 10)
+escreval (" A média ponderada das notas é: " , resultado)
+senao
+escreval (" Letra inválida, escolha A para média aritmética ou P para média ponderada")
+fimse
+fimse
+fimprocedimento
+escreval (" Digite A para calcular a média aritmética ou P para a média ponderada:")
+leia (letra)
+escreval (" Digite a primeira, segunda e terceira nota:")
+leia (nota1)
+leia (nota2)
+leia (nota3)
+MediaDoAluno (letra, nota1, nota2, nota3)
+  fimalgoritmo
